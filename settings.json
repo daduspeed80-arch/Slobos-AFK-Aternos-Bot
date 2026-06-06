@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "daduspeed.aternos.me:28299",
+    "port": 28299,
     "version": "",
     "try-creative": false
   },
