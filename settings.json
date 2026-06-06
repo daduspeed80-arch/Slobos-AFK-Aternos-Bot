@@ -2,7 +2,7 @@
   "name": "AFK Bot",
   "bot-account": {
     "username": "afkbotpinci",
-    "password": "",
+    "password": "pinci",
     "type": "offline"
   },
   "server": {
@@ -39,7 +39,7 @@
     "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
   },
   "movement": {
     "enabled": true,
