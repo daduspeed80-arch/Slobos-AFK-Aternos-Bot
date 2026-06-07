@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "pinci"
     },
     "anti-afk": {
       "enabled": true,
@@ -39,7 +39,7 @@
     "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 999999999
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
