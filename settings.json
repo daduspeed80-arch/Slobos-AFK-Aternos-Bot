@@ -34,7 +34,7 @@
     "chat-log": false,
 
     "auto-reconnect": true,
-    "auto-reconnect-delay": 20000,
+    "auto-reconnect-delay": 30000,
     "max-reconnect-delay": 60000
   },
 
@@ -43,18 +43,18 @@
 
     "circle-walk": {
       "enabled": false,
-      "radius": 4,
-      "speed": 1
+      "radius": 0,
+      "speed": 0
     },
 
     "look-around": {
       "enabled": false,
-      "interval": 5000
+      "interval": 0
     },
 
     "random-jump": {
       "enabled": false,
-      "interval": 10000
+      "interval": 0
     }
   },
 
