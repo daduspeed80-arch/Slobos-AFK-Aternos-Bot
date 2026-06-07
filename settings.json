@@ -8,7 +8,7 @@
   "server": {
     "ip": "daduspeed.aternos.me",
     "port": 28299,
-    "version": "",
+    "version": "1.21.11",
     "try-creative": false
   },
   "position": {
@@ -31,15 +31,15 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "pinci",
+        "pinci",
+        "pinci"
       ]
     },
     "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+    "max-reconnect-delay": 999999999
   },
   "movement": {
     "enabled": true,
