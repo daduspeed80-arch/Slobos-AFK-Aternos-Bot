@@ -1,15 +1,16 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "afkbotpinci",
-    "password": "pinci",
+    "username": "PINCALAUbot",
+    "password": "PANC",
     "type": "offline"
   },
 
   "server": {
     "ip": "daduspeed.aternos.me",
-    "port": 28299,
-    "version": "1.21.11"
+    "port": "28299",
+    "version": "1.21.11",
+    "try-creative": false
   },
 
   "position": {
@@ -19,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "pinci"
+      "password": "PANC"
     },
 
     "anti-afk": {
@@ -34,27 +35,27 @@
     "chat-log": false,
 
     "auto-reconnect": true,
-    "auto-reconnect-delay": 30000,
+    "auto-reconnect-delay": 20000,
     "max-reconnect-delay": 60000
   },
 
   "movement": {
-    "enabled": false,
+    "enabled": true,
+
+    "look-around": {
+      "enabled": true,
+      "interval": 60000
+    },
+
+    "random-jump": {
+      "enabled": true,
+      "interval": 120000
+    },
 
     "circle-walk": {
       "enabled": false,
       "radius": 0,
       "speed": 0
-    },
-
-    "look-around": {
-      "enabled": false,
-      "interval": 0
-    },
-
-    "random-jump": {
-      "enabled": false,
-      "interval": 0
     }
   },
 
@@ -63,17 +64,12 @@
     "combat": false,
     "beds": false,
     "chat": false,
-    "console-commands": false
+    "console-commands": true
   },
 
   "combat": {
     "attack-mobs": false,
     "auto-eat": false
-  },
-
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
   },
 
   "discord": {
